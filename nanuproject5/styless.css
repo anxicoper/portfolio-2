@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font-family: 'Your Font', sans-serif;
+    color: #333; /* Dark gray for the text */
+    background-color: #fff; /* White background */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Dark gray for the navigation text */
+}
+
+.banner {
+    text-align: center;
+    background-color: #FADADD; /* Assumed pink background for the banner */
+    padding: 20px 0;
+}
+
+h1 {
+    color: #333; /* Dark gray for the heading */
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.banner p {
+    color: #333; /* Dark gray for the subheading */
+    font-size: 1.5em;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333; /* Dark gray for the CTA button background */
+    color: #fff; /* White text for the CTA button */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Assume a light gray for the product backgrounds */
+.product-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #eaeaea;
+}
+
+/* Footer styles, if necessary */
+footer {
+    background-color: #333; /* Dark gray for the footer */
+    color: #fff; /* White text for the footer */
+    padding: 20px;
+    text-align: center;
+}
